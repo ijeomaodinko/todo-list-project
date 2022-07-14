@@ -1,5 +1,5 @@
-//eslint disable 
-import './style.css'
+// eslint disable
+import './style.css';
 
 const toDos = [
   {
