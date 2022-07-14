@@ -17,6 +17,7 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.26.0",
+    "hint": "^2.0.0",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "stylelint": "^13.13.1",
@@ -29,5 +30,14 @@
   },
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ijeomaodinko/todo-list-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ijeomaodinko/todo-list-project/issues"
+  },
+  "homepage": "https://github.com/ijeomaodinko/todo-list-project#readme"
 }
