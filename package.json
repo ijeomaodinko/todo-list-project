@@ -1,38 +1,33 @@
 {
-  "name": "todo-list-project",
+  "name": "webpack-demo",
   "version": "1.0.0",
-  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
-  "main": "index.js",
+  "description": "",
+  "private": "true",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ijeomaodinko/todo-list-project.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ijeomaodinko/todo-list-project/issues"
-  },
-  "homepage": "https://github.com/ijeomaodinko/todo-list-project#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "css-loader": "^6.6.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.26.0",
-    "hint": "^2.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0"
+    "stylelint-scss": "^3.21.0",
+    "webpack": "^5.69.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
   },
   "dependencies": {
-    "@hint/utils": "^7.0.18",
-    "@hint/utils-debug": "^1.0.10",
-    "@hint/utils-fs": "^1.0.14",
-    "@hint/utils-json": "^1.0.21",
-    "polyfill-object.fromentries": "^1.0.1"
+    "lodash": "^4.17.21"
   }
 }

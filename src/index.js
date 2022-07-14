@@ -1,6 +1,6 @@
-// disable eslint
-// import _ from 'lodash';
-// import './style.css';
+import _ from 'lodash';
+import './style.css';
+import Icon from './icon.png';
 
 const toDos = [
   {
@@ -27,7 +27,7 @@ function displayItems(arr) {
   for (let i = 0; i < arr.length; i += 1) {
     const divItem = document.createElement('div');
     // divItem.classList.add("view");
-    divItem.innerHTML = `<div><input class ="input-list" type="checkbox"> <p class="p">${arr[i].description}</p></div><img  class= "img" src="/img/ve.png" alt="vertical" />`;
+    divItem.innerHTML = `<div><input class ="input-list" type="checkbox"> <p class="p">${arr[i].description}</p></div> <i class="fa-regular fa-ellipsis-vertical"></i>`;
     listItems.appendChild(divItem);
   }
 }
