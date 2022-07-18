@@ -7,22 +7,22 @@
   <title>To do list</title>
 <script defer src="bundle.js"></script></head>
 <body>
-  <section class="list" id="list">
-    <div class="div1">
-        <div class="titleDiv">
-          <h1 class="h1">Today's to do</h1>
-        </div>
-        <div class="itemDiv">
+  <section class="list-container" id="list">
+    <div>
+          <h1>Today's to do</h1>
+        <form id="form">
           <input
             id="add-list"
             class="add-list"
             placeholder="Add to your list..."
             type="text"
+            name="todo-list"
           />
+        </form>
+          <hr>
         </div>
-        <div class="new-list"></div>
+        <div id="new-list"></div>
         <a href="#" >Clear all completed</a>
-      </div>
 </section>
 </body>
 </html>
