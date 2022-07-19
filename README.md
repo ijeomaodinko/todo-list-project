@@ -11,7 +11,7 @@ This project contains codes that enables users add their activities and be able 
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ijeomaodinko.github.io/todo-list-project/dist/)
 
 
 ## Getting Started
