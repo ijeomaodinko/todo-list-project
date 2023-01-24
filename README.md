@@ -19,6 +19,10 @@ Open your console. Type the following "git clone https://github.com/ijeomaodinko
 
 To get a local copy up and running follow these simple example steps.
 
+    npm install
+    
+    npm start    
+
 
 ## Authors
 Author Ijeoma Odinko
