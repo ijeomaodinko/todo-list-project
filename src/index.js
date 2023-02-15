@@ -24,6 +24,27 @@ addList.addEventListener('keypress', (event) => {
   }
 });
 
+// To assign enter to variable
+const form = document.getElementById('list');
+const enter = new Image();
+enter.src = Enter;
+enter.className = 'enter';
+enter.id = 'enter';
+form.appendChild(enter);
+
+//to add event on image enter
+enter.addEventListener('click', (event) => {
+  const newTasks = new Todos();
+    newTasks.description = addList.value;
+    newTasks.complete = false;
+    newTasks.index = `${collection.array.length + 1}`;
+    collection.array.push(newTasks);
+    newTasks.value = ' ';
+    const stringData = JSON.stringify(collection.array);
+    localStorage.setItem('Tasks', stringData);
+    window.location.reload();
+});
+
 display();
 removeData();
 updateIndex();
@@ -44,10 +65,3 @@ function reload() {
 }
 reloadPage.addEventListener('click', reload, false);
 
-// To assign enter to variable
-const form = document.getElementById('list');
-const enter = new Image();
-enter.src = Enter;
-enter.className = 'enter';
-enter.id = 'enter';
-form.appendChild(enter);

@@ -14,17 +14,22 @@
 
 body {
   border: 1px solid black;
-  max-width: 400px;
+  max-width: 66%;
   margin: auto;
   margin-top: 10%;
   box-shadow: 2px 2px 8px black;
-  background-color: rgba(169, 169, 169, 0.199);
+  background-image: linear-gradient(to left top, #f0f0f0, #d1adcc);
 }
 
 h1 {
   font-size: 1.9rem;
   font-weight: 400;
   padding-left: 0;
+  background: -webkit-linear-gradient(#eee, #667);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
 }
 
 hr {
@@ -37,7 +42,7 @@ hr {
   display: flex;
   flex-direction: column;
   padding: 25px;
-  background-color: white;
+  background-color: #f2d4d6;
 }
 
 input {
@@ -49,10 +54,12 @@ input {
 
 #add-list {
   margin-bottom: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
   font-size: 1rem;
-  width: 90%;
+  width: 100%;
   height: 1rem;
+  border-radius: 6px;
+
 }
 
 #new-list {
@@ -74,8 +81,20 @@ input {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 4px 0;
   border-bottom: solid gray 1px;
+  background-color: #fff;
+  border-radius: 12px;
+  margin-bottom: 0.6rem;
+}
+
+.myTasks .list {
+  margin-bottom: 10px;
+  padding: 6px;
+  padding-top: 16px;
+  font-size: 1rem;
+  width: 96%;
+  height: 0.6rem;
+  border-radius: 6px;
 }
 
 .enter {
@@ -116,10 +135,14 @@ input {
 
 .clrBtn {
   color: black;
+  margin-top: 1rem;
   padding: 1rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 0.6rem;
   width: fit-content;
   align-self: center;
-  height: 1.61rem;
+  height: 1.5rem;
   font-size: 1rem;
+  border: 0.1rem solid #e1b0ac;
+  border-radius: 29px;
+  background-color: #e1b0ac;
 }
