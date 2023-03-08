@@ -35,13 +35,10 @@ After you're finished please remove all the comments and instructions!
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+  - [Live Demo](#Live-Demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Run tests](#run-tests)
-  - [Install](#install)
-  - [Usage](#usage)
-- [Live Demo](#Live Demo)
+  - [Prerequisites](#prerequisites) 
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -59,8 +56,6 @@ This project contains codes that enables users add their activities and be able 
 - Technology: Webpack
 - Code Editor: Visual Studio
 
-Pull request for back end : https://github.com/ijeomaodinko/hello-back-end/pull/1/
-
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
@@ -69,6 +64,10 @@ Pull request for back end : https://github.com/ijeomaodinko/hello-back-end/pull/
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
   </ul>
 </details>
+
+## Live Demo (if available)
+
+[Live Demo Link](https://todo-list-assign.netlify.app/)
 
 <!-- GETTING STARTED -->
 
@@ -86,7 +85,7 @@ If you are using a SSH key.
    "git clone https://github.com/ijeomaodinko/todo-list-project.git"
 
 
-Press ENTER to create your local clone. After creating it, you can open the app through the open folder in Vscode or typing   `cd blog-app`    on the terminal 
+Press ENTER to create your local clone. After creating it, you can open the app through the open folder in Vscode or typing   `cd todo-list-project`    on the terminal 
 
 ### Prerequisites
 
@@ -114,10 +113,6 @@ Open it by accessing http://localhost:3000/ on your browser.
     
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Live Demo (if available)
-
-[Live Demo Link](https://todo-list-assign.netlify.app/)
 
 <!-- AUTHORS -->
 
